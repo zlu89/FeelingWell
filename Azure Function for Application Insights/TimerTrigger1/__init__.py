@@ -21,7 +21,7 @@ def main(mytimer: func.TimerRequest) -> None:
     if mytimer.past_due:
         print("step 1")
         logging.info("step 1")
-    r1 =requests.get('https://api.applicationinsights.io/v1/apps/67a8c5fe-f4f5-41bc-8341-008fecb33561/events/$all?timespan=PT2M', headers={'X-API-Key':"m2svqdhawnt0wi0kksemmnfs4oohyqhhz4qnfsxa"})
+    r1 =requests.get('https://api.applicationinsights.io/v1/apps/67a8c5fe-f4f5-41bc-8341-008fecb33561/events/$all?timespan=P1D', headers={'X-API-Key':"m2svqdhawnt0wi0kksemmnfs4oohyqhhz4qnfsxa"})
     x=r1.content.decode("utf-8")
     xtest=json.loads(x)
     #logging.info(xtest["value"])
@@ -37,7 +37,7 @@ def main(mytimer: func.TimerRequest) -> None:
             except ResourceExistsError:
                 print("Entry already exists")
                 logging.info("Entry already exists")
-    r2 =requests.get('https://api.applicationinsights.io/v1/apps/6c69b87f-1dfa-4f3d-a9c9-17561fbac0e1/events/$all?timespan=PT2M', headers={'X-API-Key':"lsp0wgd14mszv8grv15zi4x3i8pbaoybxx3idcfm"})
+    r2 =requests.get('https://api.applicationinsights.io/v1/apps/6c69b87f-1dfa-4f3d-a9c9-17561fbac0e1/events/$all?timespan=P1D', headers={'X-API-Key':"lsp0wgd14mszv8grv15zi4x3i8pbaoybxx3idcfm"})
     x=r2.content.decode("utf-8")
     xtest=json.loads(x)
     #logging.info(xtest["value"])

@@ -1,0 +1,79 @@
+{
+  "$kind": "Microsoft.AdaptiveDialog",
+  "$designer": {
+    "id": "acGfDX",
+    "name": "timedelay2",
+    "comment": ""
+  },
+  "autoEndDialog": true,
+  "defaultResultProperty": "dialog.result",
+  "triggers": [
+    {
+      "$kind": "Microsoft.OnBeginDialog",
+      "$designer": {
+        "name": "BeginDialog",
+        "description": "",
+        "id": "V1z0vv"
+      },
+      "actions": [
+        {
+          "$kind": "Microsoft.IfCondition",
+          "$designer": {
+            "id": "pPnOIQ"
+          },
+          "condition": "=user.targetime<utcNow()",
+          "actions": [
+            {
+              "$kind": "Microsoft.SendActivity",
+              "$designer": {
+                "id": "3tlLKJ"
+              },
+              "activity": "${SendActivity_3tlLKJ()}"
+            },
+            {
+              "$kind": "Microsoft.EndDialog",
+              "$designer": {
+                "id": "38wemL"
+              }
+            }
+          ],
+          "elseActions": [
+            {
+              "$kind": "Microsoft.RepeatDialog",
+              "$designer": {
+                "id": "KrEvpO"
+              },
+              "activityProcessed": true
+            }
+          ]
+        },
+        {
+          "$kind": "Microsoft.SendActivity",
+          "$designer": {
+            "id": "yyR8TG"
+          },
+          "activity": "${SendActivity_yyR8TG()}"
+        },
+        {
+          "$kind": "Microsoft.SetProperty",
+          "$designer": {
+            "id": "0JRfoX"
+          },
+          "property": "user.timejson",
+          "value": "=utcNow()"
+        },
+        {
+          "$kind": "Microsoft.ReplaceDialog",
+          "$designer": {
+            "id": "W2QrZc"
+          },
+          "activityProcessed": true,
+          "dialog": "timedelayloop1"
+        }
+      ]
+    }
+  ],
+  "generator": "timedelay2.lg",
+  "recognizer": "timedelay2.lu.qna",
+  "id": "timedelay2"
+}

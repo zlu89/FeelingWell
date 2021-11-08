@@ -1,0 +1,15 @@
+[import](common.lg)
+
+# SendActivity_3tlLKJ_text()
+- hi
+# SendActivity_3tlLKJ()
+[Activity
+    Text = ${SendActivity_3tlLKJ_text()}
+]
+
+# SendActivity_yyR8TG_text()
+- no
+# SendActivity_yyR8TG()
+[Activity
+    Text = ${SendActivity_yyR8TG_text()}
+]

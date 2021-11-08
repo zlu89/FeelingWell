@@ -1,0 +1,749 @@
+{
+  "$kind": "Microsoft.AdaptiveDialog",
+  "$designer": {
+    "name": "CoreWithLanguage_1",
+    "description": "",
+    "id": "4pM5gc"
+  },
+  "autoEndDialog": true,
+  "defaultResultProperty": "dialog.result",
+  "triggers": [
+    {
+      "$kind": "Microsoft.OnConversationUpdateActivity",
+      "$designer": {
+        "id": "376720"
+      },
+      "actions": [
+        {
+          "$kind": "Microsoft.Foreach",
+          "$designer": {
+            "id": "518944",
+            "name": "Loop: for each item"
+          },
+          "itemsProperty": "turn.Activity.membersAdded",
+          "actions": [
+            {
+              "$kind": "Microsoft.IfCondition",
+              "$designer": {
+                "id": "641773",
+                "name": "Branch: if/else"
+              },
+              "condition": "string(dialog.foreach.value.id) != string(turn.Activity.Recipient.id)",
+              "actions": [
+                {
+                  "$kind": "Microsoft.SendActivity",
+                  "$designer": {
+                    "id": "GxiRuf"
+                  },
+                  "activity": "${SendActivity_GxiRuf()}"
+                },
+                {
+                  "$kind": "Microsoft.SendActivity",
+                  "$designer": {
+                    "id": "yMvmG1"
+                  },
+                  "activity": "${SendActivity_yMvmG1()}"
+                },
+                {
+                  "$kind": "Microsoft.SendActivity",
+                  "$designer": {
+                    "id": "H0e7HI"
+                  },
+                  "activity": "${SendActivity_H0e7HI()}"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "$kind": "Microsoft.OnIntent",
+      "$designer": {
+        "id": "e1i6lY",
+        "name": "Cancel"
+      },
+      "intent": "Cancel",
+      "actions": [
+        {
+          "$kind": "Microsoft.BeginDialog",
+          "$designer": {
+            "id": "FDsuIq"
+          },
+          "activityProcessed": true,
+          "dialog": "CancelDialog"
+        }
+      ],
+      "condition": "=turn.recognized.score > 0.9"
+    },
+    {
+      "$kind": "Microsoft.OnIntent",
+      "$designer": {
+        "id": "9wETGs",
+        "name": "Help"
+      },
+      "intent": "Help",
+      "actions": [
+        {
+          "$kind": "Microsoft.SendActivity",
+          "$designer": {
+            "id": "OBS5tP"
+          },
+          "activity": "${SendActivity_OBS5tP()}"
+        },
+        {
+          "$kind": "Microsoft.SendActivity",
+          "$designer": {
+            "id": "Alq3iU"
+          },
+          "activity": "${SendActivity_Alq3iU()}"
+        },
+        {
+          "$kind": "Microsoft.SendActivity",
+          "$designer": {
+            "id": "l2y2eU"
+          },
+          "activity": "${SendActivity_l2y2eU()}"
+        }
+      ]
+    },
+    {
+      "$kind": "Microsoft.OnError",
+      "$designer": {
+        "id": "aLQGr7"
+      },
+      "actions": [
+        {
+          "$kind": "Microsoft.TelemetryTrackEventAction",
+          "$designer": {
+            "id": "Aucn7t"
+          },
+          "eventName": "ErrorOccurred",
+          "properties": {
+            "Type": "=turn.dialogEvent.value.className",
+            "Exception": "=turn.dialogEvent.value"
+          }
+        },
+        {
+          "$kind": "Microsoft.SendActivity",
+          "$designer": {
+            "id": "2outgQ"
+          },
+          "activity": "${SendActivity_ErrorOccured()}"
+        },
+        {
+          "$kind": "Microsoft.SendActivity",
+          "$designer": {
+            "id": "MLiIot"
+          },
+          "activity": "${SendActivity_MLiIot()}"
+        },
+        {
+          "$kind": "Microsoft.TraceActivity",
+          "$designer": {
+            "id": "NVFqr5"
+          },
+          "name": "=turn.dialogEvent.value.className",
+          "valueType": "Exception",
+          "value": "=turn.dialogEvent.value",
+          "label": "ErrorOccurred"
+        }
+      ]
+    },
+    {
+      "$kind": "Microsoft.OnUnknownIntent",
+      "$designer": {
+        "id": "FOxcnx"
+      },
+      "actions": [
+        {
+          "$kind": "Microsoft.SendActivity",
+          "$designer": {
+            "id": "IQMEuO"
+          },
+          "activity": "${SendActivity_DidNotUnderstand()}"
+        },
+        {
+          "$kind": "Microsoft.SendActivity",
+          "$designer": {
+            "id": "jl9hvH"
+          },
+          "activity": "${SendActivity_jl9hvH()}"
+        }
+      ]
+    },
+    {
+      "$kind": "Microsoft.OnIntent",
+      "$designer": {
+        "id": "Ol9dKp",
+        "name": "SetupChange"
+      },
+      "intent": "SetupChange",
+      "actions": [
+        {
+          "$kind": "Microsoft.ChoiceInput",
+          "$designer": {
+            "id": "n9YU75",
+            "comment": ""
+          },
+          "defaultLocale": "en-us",
+          "disabled": false,
+          "maxTurnCount": 3,
+          "alwaysPrompt": true,
+          "allowInterruptions": false,
+          "unrecognizedPrompt": "",
+          "invalidPrompt": "",
+          "choiceOptions": {
+            "includeNumbers": true,
+            "inlineOrMore": ", or ",
+            "inlineOr": " or ",
+            "inlineSeparator": ", "
+          },
+          "choices": [
+            {
+              "value": "emotional"
+            },
+            {
+              "value": "environmental"
+            },
+            {
+              "value": "mental"
+            },
+            {
+              "value": "physical"
+            },
+            {
+              "value": "social"
+            },
+            {
+              "value": "spiritual"
+            },
+            {
+              "value": "financial well being"
+            },
+            {
+              "value": "random"
+            }
+          ],
+          "style": "list",
+          "property": "user.wellness_selections",
+          "prompt": "${ChoiceInput_Prompt_n9YU75()}",
+          "recognizerOptions": {
+            "recognizeOrdinals": true
+          }
+        },
+        {
+          "$kind": "Microsoft.SendActivity",
+          "$designer": {
+            "id": "p8OyCg"
+          },
+          "activity": "${SendActivity_p8OyCg()}"
+        }
+      ]
+    },
+    {
+      "$kind": "Microsoft.OnIntent",
+      "$designer": {
+        "id": "49juZE",
+        "name": "TimedTraining"
+      },
+      "intent": "TimedTraining",
+      "actions": [
+        {
+          "$kind": "Microsoft.SwitchCondition",
+          "$designer": {
+            "id": "J1moRd"
+          },
+          "condition": "user.wellness_selections",
+          "cases": [
+            {
+              "value": " emotional",
+              "actions": [
+                {
+                  "$kind": "Microsoft.SendActivity",
+                  "$designer": {
+                    "id": "qy38tM",
+                    "comment": ""
+                  },
+                  "activity": "${SendActivity_qy38tM()}"
+                }
+              ]
+            },
+            {
+              "value": "environmental"
+            },
+            {
+              "value": "mental",
+              "actions": [
+                {
+                  "$kind": "Microsoft.ChoiceInput",
+                  "$designer": {
+                    "id": "56FBFR"
+                  },
+                  "defaultLocale": "en-us",
+                  "disabled": false,
+                  "maxTurnCount": 3,
+                  "alwaysPrompt": true,
+                  "allowInterruptions": false,
+                  "unrecognizedPrompt": "",
+                  "invalidPrompt": "",
+                  "choiceOptions": {
+                    "includeNumbers": true,
+                    "inlineOrMore": ", or ",
+                    "inlineOr": " or ",
+                    "inlineSeparator": ", "
+                  },
+                  "prompt": "${ChoiceInput_Prompt_56FBFR()}",
+                  "property": "user.anonchoice",
+                  "choices": [
+                    {
+                      "value": "yes"
+                    },
+                    {
+                      "value": "no"
+                    }
+                  ],
+                  "recognizerOptions": {
+                    "recognizeOrdinals": true,
+                    "recognizeNumbers": true
+                  }
+                },
+                {
+                  "$kind": "Microsoft.SwitchCondition",
+                  "$designer": {
+                    "id": "Xubj3y"
+                  },
+                  "condition": "user.anonchoice",
+                  "cases": [
+                    {
+                      "value": "yes",
+                      "actions": [
+                        {
+                          "$kind": "Microsoft.SendActivity",
+                          "$designer": {
+                            "id": "TDRls9"
+                          },
+                          "activity": "${SendActivity_TDRls9()}"
+                        }
+                      ]
+                    },
+                    {
+                      "value": "no",
+                      "actions": [
+                        {
+                          "$kind": "Microsoft.SendActivity",
+                          "$designer": {
+                            "id": "Uk34sR"
+                          },
+                          "activity": "${SendActivity_Uk34sR()}"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "value": "physical",
+              "actions": [
+                {
+                  "$kind": "Microsoft.SendActivity",
+                  "$designer": {
+                    "id": "gwZf7i"
+                  },
+                  "activity": "${SendActivity_gwZf7i()}"
+                }
+              ]
+            },
+            {
+              "value": "social",
+              "actions": [
+                {
+                  "$kind": "Microsoft.SendActivity",
+                  "$designer": {
+                    "id": "3PCAX7"
+                  },
+                  "activity": "${SendActivity_3PCAX7()}"
+                }
+              ]
+            },
+            {
+              "value": "spiritual",
+              "actions": [
+                {
+                  "$kind": "Microsoft.ChoiceInput",
+                  "$designer": {
+                    "id": "kkQ7kX"
+                  },
+                  "defaultLocale": "en-us",
+                  "disabled": false,
+                  "maxTurnCount": 3,
+                  "alwaysPrompt": true,
+                  "allowInterruptions": false,
+                  "unrecognizedPrompt": "",
+                  "invalidPrompt": "",
+                  "choiceOptions": {
+                    "includeNumbers": true,
+                    "inlineOrMore": ", or ",
+                    "inlineOr": " or ",
+                    "inlineSeparator": ", "
+                  },
+                  "prompt": "${ChoiceInput_Prompt_kkQ7kX()}",
+                  "property": "user.lonelychoice",
+                  "choices": [
+                    {
+                      "value": "Individual"
+                    },
+                    {
+                      "value": "Group"
+                    }
+                  ],
+                  "recognizerOptions": {
+                    "recognizeOrdinals": true
+                  }
+                },
+                {
+                  "$kind": "Microsoft.SwitchCondition",
+                  "$designer": {
+                    "id": "mTmFp2"
+                  },
+                  "condition": "user.lonelychoice",
+                  "cases": [
+                    {
+                      "value": "Individual",
+                      "actions": [
+                        {
+                          "$kind": "Microsoft.SendActivity",
+                          "$designer": {
+                            "id": "U2chNS"
+                          },
+                          "activity": "${SendActivity_U2chNS()}"
+                        }
+                      ]
+                    },
+                    {
+                      "value": "Group",
+                      "actions": [
+                        {
+                          "$kind": "Microsoft.SendActivity",
+                          "$designer": {
+                            "id": "9G4hvd"
+                          },
+                          "activity": "${SendActivity_9G4hvd()}"
+                        },
+                        {
+                          "$kind": "Microsoft.SendActivity",
+                          "$designer": {
+                            "id": "mpRkH2"
+                          },
+                          "activity": "${SendActivity_mpRkH2()}"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "value": "financial well being",
+              "actions": [
+                {
+                  "$kind": "Microsoft.SendActivity",
+                  "$designer": {
+                    "id": "xNeUEi"
+                  },
+                  "activity": "${SendActivity_xNeUEi()}"
+                },
+                {
+                  "$kind": "Microsoft.ChoiceInput",
+                  "$designer": {
+                    "id": "kbC4Aj"
+                  },
+                  "defaultLocale": "en-us",
+                  "disabled": false,
+                  "maxTurnCount": 3,
+                  "alwaysPrompt": false,
+                  "allowInterruptions": false,
+                  "prompt": "${ChoiceInput_Prompt_kbC4Aj()}",
+                  "unrecognizedPrompt": "",
+                  "invalidPrompt": "",
+                  "defaultValueResponse": "",
+                  "choiceOptions": {
+                    "includeNumbers": true,
+                    "inlineOrMore": ", or ",
+                    "inlineOr": " or ",
+                    "inlineSeparator": ", "
+                  },
+                  "property": "user.financechoice",
+                  "choices": [
+                    {
+                      "value": "yes"
+                    },
+                    {
+                      "value": "no"
+                    }
+                  ]
+                },
+                {
+                  "$kind": "Microsoft.SwitchCondition",
+                  "$designer": {
+                    "id": "IL91kZ"
+                  },
+                  "condition": "user.financechoice",
+                  "cases": [
+                    {
+                      "value": "yes",
+                      "actions": [
+                        {
+                          "$kind": "Microsoft.SendActivity",
+                          "$designer": {
+                            "id": "0FEbTP"
+                          },
+                          "activity": "${SendActivity_0FEbTP()}"
+                        },
+                        {
+                          "$kind": "Microsoft.SendActivity",
+                          "$designer": {
+                            "id": "sWoWwQ"
+                          },
+                          "activity": "${SendActivity_sWoWwQ()}"
+                        },
+                        {
+                          "$kind": "Microsoft.SendActivity",
+                          "$designer": {
+                            "id": "zCi0AO"
+                          },
+                          "activity": "${SendActivity_zCi0AO()}"
+                        }
+                      ]
+                    },
+                    {
+                      "value": "no",
+                      "actions": [
+                        {
+                          "$kind": "Microsoft.SendActivity",
+                          "$designer": {
+                            "id": "Wos8nj"
+                          },
+                          "activity": "${SendActivity_Wos8nj()}"
+                        },
+                        {
+                          "$kind": "Microsoft.SendActivity",
+                          "$designer": {
+                            "id": "oKvWj8"
+                          },
+                          "activity": "${SendActivity_oKvWj8()}"
+                        },
+                        {
+                          "$kind": "Microsoft.SendActivity",
+                          "$designer": {
+                            "id": "kyUHYs"
+                          },
+                          "activity": "${SendActivity_kyUHYs()}"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "value": "random",
+              "actions": [
+                {
+                  "$kind": "Microsoft.SetProperty",
+                  "$designer": {
+                    "id": "FNXg5b"
+                  },
+                  "property": "user.randomselection",
+                  "value": "=floor(rand(0, 7))"
+                },
+                {
+                  "$kind": "Microsoft.SwitchCondition",
+                  "$designer": {
+                    "id": "ZC3w9N"
+                  },
+                  "condition": "user.randomselection",
+                  "cases": [
+                    {
+                      "value": "0",
+                      "actions": [
+                        {
+                          "$kind": "Microsoft.SendActivity",
+                          "$designer": {
+                            "id": "r1YZpR"
+                          },
+                          "activity": "${SendActivity_r1YZpR()}"
+                        }
+                      ]
+                    },
+                    {
+                      "value": "1",
+                      "actions": [
+                        {
+                          "$kind": "Microsoft.SendActivity",
+                          "$designer": {
+                            "id": "3hSFhK"
+                          },
+                          "activity": "${SendActivity_3hSFhK()}"
+                        }
+                      ]
+                    },
+                    {
+                      "value": "2",
+                      "actions": [
+                        {
+                          "$kind": "Microsoft.SendActivity",
+                          "$designer": {
+                            "id": "FJqZvE"
+                          },
+                          "activity": "${SendActivity_FJqZvE()}"
+                        }
+                      ]
+                    },
+                    {
+                      "value": "3",
+                      "actions": [
+                        {
+                          "$kind": "Microsoft.SendActivity",
+                          "$designer": {
+                            "id": "eCiWFa"
+                          },
+                          "activity": "${SendActivity_eCiWFa()}"
+                        }
+                      ]
+                    },
+                    {
+                      "value": "4",
+                      "actions": [
+                        {
+                          "$kind": "Microsoft.SendActivity",
+                          "$designer": {
+                            "id": "JWKHCY"
+                          },
+                          "activity": "${SendActivity_JWKHCY()}"
+                        }
+                      ]
+                    },
+                    {
+                      "value": "5",
+                      "actions": [
+                        {
+                          "$kind": "Microsoft.SendActivity",
+                          "$designer": {
+                            "id": "1E7u5C"
+                          },
+                          "activity": "${SendActivity_1E7u5C()}"
+                        }
+                      ]
+                    },
+                    {
+                      "value": "6",
+                      "actions": [
+                        {
+                          "$kind": "Microsoft.SendActivity",
+                          "$designer": {
+                            "id": "ND1uZb"
+                          },
+                          "activity": "${SendActivity_ND1uZb()}"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "$kind": "Microsoft.OnQnAMatch",
+      "$designer": {
+        "id": "jBLxHF"
+      },
+      "actions": [
+        {
+          "$kind": "Microsoft.IfCondition",
+          "$designer": {
+            "id": "7neKtw"
+          },
+          "condition": "count(turn.recognized.answers[0].context.prompts) > 0",
+          "actions": [
+            {
+              "$kind": "Microsoft.SetProperty",
+              "$designer": {
+                "id": "ynj8Uq"
+              },
+              "property": "dialog.qnaContext",
+              "value": "=turn.recognized.answers[0].context.prompts"
+            },
+            {
+              "$kind": "Microsoft.TextInput",
+              "$designer": {
+                "id": "8eEpMD"
+              },
+              "maxTurnCount": 3,
+              "alwaysPrompt": true,
+              "allowInterruptions": false,
+              "prompt": "${TextInput_Prompt_dUspYP()}",
+              "property": "turn.qnaMultiTurnResponse"
+            },
+            {
+              "$kind": "Microsoft.SetProperty",
+              "$designer": {
+                "id": "1lS5Ii"
+              },
+              "property": "turn.qnaMatchFromContext",
+              "value": "=where(dialog.qnaContext, item, item.displayText == turn.qnaMultiTurnResponse)"
+            },
+            {
+              "$kind": "Microsoft.DeleteProperty",
+              "$designer": {
+                "id": "BwK10I"
+              },
+              "property": "dialog.qnaContext"
+            },
+            {
+              "$kind": "Microsoft.IfCondition",
+              "$designer": {
+                "id": "6IbTVs"
+              },
+              "condition": "turn.qnaMatchFromContext && count(turn.qnaMatchFromContext) > 0",
+              "actions": [
+                {
+                  "$kind": "Microsoft.SetProperty",
+                  "$designer": {
+                    "id": "l6nMqx"
+                  },
+                  "property": "turn.qnaIdFromPrompt",
+                  "value": "=turn.qnaMatchFromContext[0].qnaId"
+                }
+              ]
+            },
+            {
+              "$kind": "Microsoft.EmitEvent",
+              "$designer": {
+                "id": "kRzUxi"
+              },
+              "eventName": "activityReceived",
+              "eventValue": "=turn.activity"
+            }
+          ],
+          "elseActions": [
+            {
+              "$kind": "Microsoft.SendActivity",
+              "$designer": {
+                "id": "uhWoyv"
+              },
+              "activity": "${SendActivity_HI7kMe()}"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "generator": "CoreWithLanguage_1.lg",
+  "id": "CoreWithLanguage_1",
+  "recognizer": "CoreWithLanguage_1.lu.qna"
+}

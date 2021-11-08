@@ -1,0 +1,324 @@
+[import](common.lg)
+
+# SendActivity_ErrorOccured()
+[Activity
+    Text = ${SendActivity_ErrorOccured_text()}
+]
+
+# SendActivity_ErrorOccured_text()
+- Sorry. An error occured.
+# SendActivity_DidNotUnderstand()
+[Activity
+    Text = ${SendActivity_DidNotUnderstand_text()}
+]
+
+# SendActivity_DidNotUnderstand_text()
+- Sorry, I didn't get that
+- I'm not sure I understand. Can you please try again?
+- Hmm, I don't understand. Can you try to ask me in a different way. 
+- I didn't get that. Would you mind rephrasing and try it again.
+
+
+# YogaCard
+[Activity
+    Attachments = ${json(theyAD())}
+]
+
+# theyAD
+- ```
+{
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "type": "AdaptiveCard",
+  "version": "1.1",
+  "fallbackText": "This card requires Media to be viewed. Ask your platform to update to Adaptive Cards v1.1 for this and more!",
+    "body": [
+        {
+      "type": "TextBlock",
+      "text": "They",
+      "size": "large"
+    },
+        {
+            "type": "Media",
+             "poster": "https://www.rejoiceschool.com/wp-content/uploads/2019/05/ytclicktoplay.png",
+            "sources": [
+                {
+                    "mimeType": "video/mp4",
+                    "url": "https://www.learningcontainer.com/wp-content/uploads/2020/05/sample-mp4-file.mp4"
+                }
+            ]
+        }
+    ]
+}
+```
+
+
+# YogaVidCard1
+[VideoCard
+    title = Big Buck Bunny
+    subtitle = by the Blender Institute
+    text = Big Buck Bunny (code-named Peach) is a short computer-animated comedy film by the Blender Institute
+    image = https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Big_buck_bunny_poster_big.jpg/220px-Big_buck_bunny_poster_big.jpg
+    media = https://www.learningcontainer.com/wp-content/uploads/2020/05/sample-mp4-file.mp4
+    buttons = Learn More
+]
+
+# LogAction_Text_jszDeU()
+- ${Event}
+# ChoiceInput_Prompt_n9YU75()
+- What areas of wellness would you like to work on?
+# SendActivity_GxiRuf()
+[Activity
+    Text = ${SendActivity_GxiRuf_text()}
+]
+
+# SendActivity_GxiRuf_text()
+- I am a bot designed to give you timed breaks to help develop your wellness
+# TeamsSendMessageToTeamsChannel_Activity_J6pXkS()
+[Activity
+    Text = ${TeamsSendMessageToTeamsChannel_Activity_J6pXkS_text()}
+]
+
+# TeamsSendMessageToTeamsChannel_Activity_J6pXkS_text()
+- setting time for a break
+# SendActivity_p8OyCg()
+[Activity
+    Text = ${SendActivity_p8OyCg_text()}
+]
+
+# SendActivity_p8OyCg_text()
+- ${user.wellness_selections} has been set up for your wellness area!
+# SendActivity_jl9hvH_text()
+- You can change what area of wellness that you would like to develop by messaging "setup" and perform the activity by messaging "activity"
+# SendActivity_jl9hvH()
+[Activity
+    Text = ${SendActivity_jl9hvH_text()}
+]
+
+# SendActivity_MLiIot()
+[Activity
+    Text = ${SendActivity_MLiIot_text()}
+]
+
+# SendActivity_MLiIot_text()
+- You can also say "Help" at any time to get info on what I can do!
+# SendActivity_gwZf7i()
+[Activity
+    Text = ${SendActivity_gwZf7i_text()}
+]
+
+# SendActivity_gwZf7i_text()
+- Here's a quick stretch for you to follow!: https://www.youtube.com/watch?v=NLHiMReDhMM
+- Here's a quick stretch for you to follow!: https://www.youtube.com/watch?v=nJ_uNf7Nkes
+# SendActivity_3PCAX7()
+[Activity
+    Text = ${SendActivity_3PCAX7_text()}
+]
+
+# SendActivity_3PCAX7_text()
+- Use this link to connect with people anonymously: https://anonchat2021.azurewebsites.net
+# ChoiceInput_Prompt_kkQ7kX_text()
+- Do you want an individual or group break?
+# ChoiceInput_Prompt_kkQ7kX()
+[Activity
+    Text = ${ChoiceInput_Prompt_kkQ7kX_text()}
+]
+
+# SendActivity_l2y2eU_text()
+- For the breaks, you can change what area of wellness that you would like to develop by messaging "setup" and perform the activity by messaging "activity"
+# SendActivity_l2y2eU()
+[Activity
+    Text = ${SendActivity_l2y2eU_text()}
+]
+
+# SendActivity_OBS5tP_text()
+- I am a bot designed to give you timed breaks to help develop your wellness and mindfulnness
+# SendActivity_OBS5tP()
+[Activity
+    Text = ${SendActivity_OBS5tP_text()}
+]
+
+# ChoiceInput_Prompt_56FBFR_text()
+- Would you like to go on an anonymous server?
+# ChoiceInput_Prompt_56FBFR()
+[Activity
+    Text = ${ChoiceInput_Prompt_56FBFR_text()}
+]
+
+# SendActivity_TDRls9_text()
+- Here's a game to give your mind a break: https://connect4well.azurewebsites.net
+- Here's a game to give your mind a break: https://minesweeperbreak.azurewebsites.net
+# SendActivity_TDRls9()
+[Activity
+    Text = ${SendActivity_TDRls9_text()}
+]
+
+# SendActivity_qy38tM()
+[Activity
+    Text = ${SendActivity_qy38tM_text()}
+]
+
+# SendActivity_qy38tM_text()
+- hi
+# TextInput_Prompt_dUspYP()
+[Activity
+    Text = ${expandText(@answer)}
+    SuggestedActions = ${foreach(turn.recognized.answers[0].context.prompts, x, x.displayText)}
+]
+
+# SendActivity_HI7kMe()
+- ${expandText(@answer)}
+
+# SendActivity_Alq3iU()
+[Activity
+    Text = ${SendActivity_Alq3iU_text()}
+]
+
+# SendActivity_Alq3iU_text()
+- If you have any questions about mindfulness, be sure to ask me, I will do my best to answer you questions!
+# SendActivity_yMvmG1_text()
+- If you have nay questions about mindfulness, be sure to ask me, I will do my best to answer you questions!
+# SendActivity_yMvmG1()
+[Activity
+    Text = ${SendActivity_yMvmG1_text()}
+]
+
+# SendActivity_H0e7HI_text()
+- For the breaks, you can change what area of wellness that you would like to develop by messaging "setup" and perform the activity by messaging "activity"
+# SendActivity_H0e7HI()
+[Activity
+    Text = ${SendActivity_H0e7HI_text()}
+]
+
+# SendActivity_9G4hvd_text()
+- Here's the link to join the group meditation: https://teams.microsoft.com/l/meetup-join/19%3Ameeting_MDZjNzNlYTYtYjgzMS00NDdlLWFhZTAtNDdjYjk0NDgyNzBm%40thread.v2/0?context=%7B%22Tid%22%3A%22ce834bfb-c22e-435e-95f0-8b91b332b32d%22%2C%22Oid%22%3A%224e5de5bc-6d17-413f-b616-34f465b75be9%22%2C%22MessageId%22%3A%220%22%7D
+# SendActivity_9G4hvd()
+[Activity
+    Text = ${SendActivity_9G4hvd_text()}
+]
+
+# SendActivity_mpRkH2()
+[Activity
+    Text = ${SendActivity_mpRkH2_text()}
+]
+
+# SendActivity_mpRkH2_text()
+- This is the video we will be following today: https://www.youtube.com/watch?v=ZToicYcHIOU
+# SendActivity_U2chNS()
+[Activity
+    Text = ${SendActivity_U2chNS_text()}
+]
+
+# SendActivity_U2chNS_text()
+- Here's a mediation video to follow: https://www.youtube.com/watch?v=ZToicYcHIOU
+# SendActivity_xNeUEi()
+[Activity
+    Text = ${SendActivity_xNeUEi_text()}
+]
+
+# SendActivity_xNeUEi_text()
+- To help your financial well-being, we first have to identify what areas of financial well being you are struggeling with.
+# ChoiceInput_Prompt_kbC4Aj()
+[Activity
+    Text = ${ChoiceInput_Prompt_kbC4Aj_text()}
+]
+
+# ChoiceInput_Prompt_kbC4Aj_text()
+- Have you already taken the financial well being questionnare to discover what area of financial wellbeing you should improve on?
+# SendActivity_0FEbTP_text()
+- Now that you have identified your areas of improvement for financial well-being, here is a guide to follow: https://files.consumerfinance.gov/f/documents/201706_cfpb_five-principles-financial-well-being.pdf
+# SendActivity_0FEbTP()
+[Activity
+    Text = ${SendActivity_0FEbTP_text()}
+]
+
+# SendActivity_Uk34sR_text()
+- Here's a game to give your mind a break: https://connect4well2.azurewebsites.net
+- Here's a game to give your mind a break: https://minesweeperbreak2.azurewebsites.net
+# SendActivity_Uk34sR()
+[Activity
+    Text = ${SendActivity_Uk34sR_text()}
+]
+
+# SendActivity_Wos8nj_text()
+- Please take this questionnaire to evauate your fiancial well-being and what areas you can improve on: https://files.consumerfinance.gov/f/documents/bcfp_fin-well-being_full-scorecard.pdf
+# SendActivity_Wos8nj()
+[Activity
+    Text = ${SendActivity_Wos8nj_text()}
+]
+
+# SendActivity_oKvWj8_text()
+- A higher questionnaire score means a higher degree of financial safety. Look over the areas of financial safety and figure out what areas you need to improve on.
+# SendActivity_oKvWj8()
+[Activity
+    Text = ${SendActivity_oKvWj8_text()}
+]
+
+# SendActivity_kyUHYs_text()
+- When you are done restart this loop and answer yes when prompted if you know what area of financial well being you are struggling with.
+# SendActivity_kyUHYs()
+[Activity
+    Text = ${SendActivity_kyUHYs_text()}
+]
+
+# SendActivity_sWoWwQ()
+[Activity
+    Text = ${SendActivity_sWoWwQ_text()}
+]
+
+# SendActivity_sWoWwQ_text()
+- We recommend reading a section of the guide a day and slowly digesting the information.
+# SendActivity_zCi0AO()
+[Activity
+    Text = ${SendActivity_zCi0AO_text()}
+]
+
+# SendActivity_zCi0AO_text()
+- We hope to eventually be able to have a financial expert go over the guide with you!
+# SendActivity_r1YZpR()
+[Activity
+    Text = ${SendActivity_r1YZpR_text()}
+]
+
+# SendActivity_r1YZpR_text()
+- Here is a break to target: emotional well-being
+# SendActivity_3hSFhK_text()
+- Here is a break to target: environmental well-being
+# SendActivity_3hSFhK()
+[Activity
+    Text = ${SendActivity_3hSFhK_text()}
+]
+
+# SendActivity_FJqZvE_text()
+- Here is a break to target: mental well-being
+# SendActivity_FJqZvE()
+[Activity
+    Text = ${SendActivity_FJqZvE_text()}
+]
+
+# SendActivity_eCiWFa_text()
+- Here is a break to target: physical well-being
+# SendActivity_eCiWFa()
+[Activity
+    Text = ${SendActivity_eCiWFa_text()}
+]
+
+# SendActivity_JWKHCY_text()
+- Here is a break to target: social well-being
+# SendActivity_JWKHCY()
+[Activity
+    Text = ${SendActivity_JWKHCY_text()}
+]
+
+# SendActivity_1E7u5C_text()
+- Here is a break to target: spiritual well-being
+# SendActivity_1E7u5C()
+[Activity
+    Text = ${SendActivity_1E7u5C_text()}
+]
+
+# SendActivity_ND1uZb_text()
+- Here is a break to target: financial well-being
+# SendActivity_ND1uZb()
+[Activity
+    Text = ${SendActivity_ND1uZb_text()}
+]

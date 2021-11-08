@@ -1,0 +1,136 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/tommylu123/Downloads/ASL-Helper-Bot-main/CoreWithLanguage_1/CoreWithLanguage_1/CoreWithLanguage_1.csproj": {}
+  },
+  "projects": {
+    "/Users/tommylu123/Downloads/ASL-Helper-Bot-main/CoreWithLanguage_1/CoreWithLanguage_1/CoreWithLanguage_1.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/tommylu123/Downloads/ASL-Helper-Bot-main/CoreWithLanguage_1/CoreWithLanguage_1/CoreWithLanguage_1.csproj",
+        "projectName": "CoreWithLanguage_1",
+        "projectPath": "/Users/tommylu123/Downloads/ASL-Helper-Bot-main/CoreWithLanguage_1/CoreWithLanguage_1/CoreWithLanguage_1.csproj",
+        "packagesPath": "/Users/tommylu123/.nuget/packages/",
+        "outputPath": "/Users/tommylu123/Downloads/ASL-Helper-Bot-main/CoreWithLanguage_1/CoreWithLanguage_1/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/tommylu123/Downloads/ASL-Helper-Bot-main/CoreWithLanguage_1/CoreWithLanguage_1/NuGet.Config",
+          "/Users/tommylu123/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://botbuilder.myget.org/F/botbuilder-v4-dotnet-daily/api/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Bot.Builder.Community.Components.Adapters.Zoom": {
+              "target": "Package",
+              "version": "[4.13.2, )"
+            },
+            "Bot.Builder.Community.Components.Dialogs.Input": {
+              "target": "Package",
+              "version": "[4.13.2, )"
+            },
+            "Iciclecreek.AdaptiveExpressions.Javascript": {
+              "target": "Package",
+              "version": "[4.13.0, )"
+            },
+            "Iciclecreek.AdaptiveExpressions.Python": {
+              "target": "Package",
+              "version": "[4.14.0, )"
+            },
+            "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
+              "target": "Package",
+              "version": "[3.1.8, )"
+            },
+            "Microsoft.Bot.Builder.AI.Luis": {
+              "target": "Package",
+              "version": "[4.14.1, )"
+            },
+            "Microsoft.Bot.Builder.AI.QnA": {
+              "target": "Package",
+              "version": "[4.14.1, )"
+            },
+            "Microsoft.Bot.Builder.Dialogs.Adaptive.Runtime": {
+              "target": "Package",
+              "version": "[4.14.1, )"
+            },
+            "Microsoft.Bot.Components.AdaptiveCards": {
+              "target": "Package",
+              "version": "[1.1.2, )"
+            },
+            "Microsoft.Bot.Components.Graph": {
+              "target": "Package",
+              "version": "[1.1.2, )"
+            },
+            "Microsoft.Bot.Components.HelpAndCancel": {
+              "target": "Package",
+              "version": "[1.1.2, )"
+            },
+            "Microsoft.Bot.Components.Teams": {
+              "target": "Package",
+              "version": "[1.1.2, )"
+            },
+            "Microsoft.Bot.Components.Welcome": {
+              "target": "Package",
+              "version": "[1.1.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Runtime.win-x64",
+              "version": "[3.1.19, 3.1.19]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[3.1.19, 3.1.19]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Runtime.win-x64",
+              "version": "[3.1.19, 3.1.19]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.413/RuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "win-x64": {
+          "#import": []
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,4 @@
+{
+    "appService.defaultWebAppToDeploy": "/subscriptions/067df30d-7d12-46af-a234-4d2813ddf92e/resourceGroups/appsvc_windows_centralus/providers/Microsoft.Web/sites/AnonChat2021",
+    "appService.deploySubpath": "."
+}

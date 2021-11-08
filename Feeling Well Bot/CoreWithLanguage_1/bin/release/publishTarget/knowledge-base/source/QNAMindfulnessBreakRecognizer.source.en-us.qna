@@ -1,0 +1,424 @@
+> !# @source.endpoint=https://qnabreaktest.cognitiveservices.azure.com/
+> !# @source.kbId=11414e50-3a56-465b-9513-5918039414f4
+> # QnA pairs
+
+> !# @qna.pair.source = https://lifeapps.io/mindfulness-faq/
+
+<a id = "1"></a>
+
+# ? What is mindfulness?
+
+```markdown
+While many definitions exist, most agree that mindfulness involves bringing intentional awareness to our present moment experiences *while they are unfolding*, with qualities of openness, curiosity and non-judgment. To be mindful is to fully *be* with whatever *is* without trying or needing to change it in any way.
+```
+
+> !# @qna.pair.source = https://lifeapps.io/mindfulness-faq/
+
+<a id = "2"></a>
+
+# ? What is mindful meditation?
+
+```markdown
+Mindful meditation is the act of purposefully cultivating mindful awareness within our present moments. This is usually done through a formal, time-limited practice. This often looks like sitting or lying down while often using the breath as an object of mindful observation. While many understand mindful meditation to involve bringing and maintaining one’s *attention* to the present moment, a key aspect of this practice involves engaging the heart, especially during moments when the meditation practice can trigger our automatic, unconscious, and often unkind micro-judgments and aggressions about ourselves and others. Learning to gently catch ourselves in these moments with self-compassion and understanding can strengthen our ability to respond to stress instead of reacting to it.
+```
+
+> !# @qna.pair.source = https://lifeapps.io/mindfulness-faq/
+
+<a id = "3"></a>
+
+# ? How is mindfulness different than other forms of meditation or stress reduction activity?
+
+```markdown
+While the word meditation refers to the act of meditating, it also generically represents a larger umbrella of contemplative and concentrative practices that seek to strengthen consciousness, oneness, wholeness, emptiness, loving-kindness or insight into one’s life. Some practices may involve rhythmic chanting or breathing, or reciting mantras, while others such as mindful meditation simply involve paying attention and re-directing our attention in a particular way.
+
+You can also think of mindfulness practice as coming in two different flavors – the formal and the informal. For the formal practice, you might set aside 20 minutes with a timer and sit on a cushion or on the floor listening to a recording or simply an occasional gong sound (there are apps for this, like Calm and the upcoming LIFE Extend app). But there’s also the informal practice of mindfulness, which is watching your life or having your life be your meditation. In this informal practice you tune into moments that might happen while you are eating, engaging in conversation or walking. The benefit of the formal practice is that it turns the volume up on the informal practice.
+
+Let’s say you go to the gym on a regular basis and spend half an hour lifting steel to make your muscles rip and grow bigger. If you think about it, this kind of formal physical exercise is a weird activity – why would anyone go to a gym just to lift steel? But the goal is to shred your tissue and to get stronger so that in everyday life you are stronger, your back isn’t as sore, you are more energetic. The same is true of mindfulness. The formal practice of quietly meditating for several minutes every day might seem weird – why would I sit on my floor with my eyes closed for 20 minutes? But like lifting steel, it has a carryover effect to everyday activities.
+
+While reducing stress or feeling relaxed might occur through mindful meditation, it is not the explicit goal like it is in other relaxation therapies such as guided imagery, visualization, progressive muscle relaxation and some forms of hypnosis.
+```
+
+> !# @qna.pair.source = https://lifeapps.io/mindfulness-faq/
+
+<a id = "4"></a>
+
+# ? How is mindfulness typically practiced?
+
+```markdown
+Similar to going to the gym to lift weights, building one’s “mindfulness muscle” often involves formal, consistent practice. This is usually done while sitting or lying quietly for a set period of time, although it sometimes includes walking slowly or even eating.
+
+The anatomy of a mindful meditation practice typically involves the following steps: 1) bringing awareness to something in the present moment, such as the breath; 2) noticing, watching and observing the experience of breathing with openness, curiosity and non-judgment; 3) when our attention wanders elsewhere (which it will), gently and kindly escorting it back to the experience of breathing; 4) rinse and repeat again and again and again until the timer goes off.
+
+Activities such as sitting or reclining on a yoga mat for example are generally used in formal practice because they provide an easily accessible “personal gym” from which to observe our moments. Over time, just as strength gained in the weight room transfers over into real life situations (like being able to carry more groceries), mindful awareness transfers over into our daily lives in informal ways, (*this *is what brushing my teeth feels like). While unplanned and informal, these mindful “drop-in” moments also represent meditation practice just like sitting in a quiet place with a timer. Therefore, eventually one might come to see that their whole life is the mediation practice, the “personal gym” through which tuning into our experiences in this way becomes commonplace and is not bound to just sitting on a cushion.
+```
+
+> !# @qna.pair.source = https://lifeapps.io/mindfulness-faq/
+
+<a id = "5"></a>
+
+# ? What are the benefits of mindful meditation?
+
+```markdown
+While we don’t think the Buddha practiced mindfulness meditation to lower his blood pressure per se, this ancient practice has over 2,500 years of “lay evidence” to support some of the benefits we think of today when we hear the word “meditation”. It is only recently that we have begun to apply the scientific method to this practice, which isn’t without its challenges and limitations. Over the past two decades a significant body of research has been conducted across a variety of different medical and non-medical populations to better understand what the benefits of being mindful are, if any.
+
+In general, here’s what we know: for most of us, learning and practicing mindful meditation can, over time, take us off of automatic pilot and slow our minds and bodies down. Mindfulness practice sometimes induces a “relaxation response”. The parasympathetic nervous system, which is responsible for what I call “rest and digest” functions, signals various regulatory functions within the brain and body to slow down our brain waves, decrease muscle tension, slow heart rate, decrease blood pressure, decrease our metabolism, etc. Just like watching a video clip of a hummingbird in slow motion makes it possible to actually see its wings flapping up and down, slowing down our minds and bodies through mindful meditation allows us to notice previously automatic or unconscious things with increased conscious awareness (*wow, I have A LOT of thoughts*. More importantly, it allows us to notice them with certain qualities of mindfulness that are very important to this practice being more than just a mental exercise, such as **self-kindness, patience, tolerance, acceptance and equanimity**.
+
+Slowing down like this can create some distance between the actor and the event, allowing us more opportunity to respond versus react. In a nutshell, this is essentially what affective neuroscientists call “[emotion regulation](https://www.ncbi.nlm.nih.gov/pubmed/29990584)”, or our ability to consciously set and modulate our cognitive, affective and sensory thermostats depending on a variety of conditions.
+
+Slowing down and self-regulating in this way has been associated with decreased symptoms of anxiety, depression, pain, fatigue and sleep disturbance; increased positive emotions such as gratitude, empathy and compassion; improved immune and [neuroendocrine system](https://www.ncbi.nlm.nih.gov/pubmed/24767614) functioning, and even possibly implications for our chromosomes, cellular aging and [cognitive decline](https://www.ncbi.nlm.nih.gov/pubmed/24571182).
+
+In our own studies, we have found that mindfulness practice can lead to reductions in stress, anxiety and symptoms of depression. We’ve also found that people who practice mindfulness, as opposed to people who don’t, have improvements in post-traumatic growth, or growth from adversity. People in our mindfulness conditions have also scored higher in self-compassion compared to those in other experimental conditions.
+
+*Editor’s note: *Mindfulness-based stress reduction training has been uniquely associated with [improvements in self-compassion and rumination](https://www.ncbi.nlm.nih.gov/pubmed/29642115). In [one study](https://www.ncbi.nlm.nih.gov/pubmed/29990584), activation of the amygdala in response to negative pictures was lower among long-term meditators. Mindful awareness has also been found to [reduce automatic negative self-evaluation, increase tolerance for negative affect and pain, and increase self-compassion and empathy](https://www.ncbi.nlm.nih.gov/pubmed/22340146). [Sara Lazar](https://scholar.harvard.edu/sara_lazar/publications) has found that [mindfulness is associated with changes in brain volume](https://www.washingtonpost.com/news/inspired-life/wp/2015/05/26/harvard-neuroscientist-meditation-not-only-reduces-stress-it-literally-changes-your-brain/?utm_term=.8e613fc68560) in regions of the brain associated with mind wandering, learning, emotional regulation, compassion and the fight or flight response. Other researchers who have studied the impacts of mindfulness practice on health have found [connections to a stress-buffering response that can have biological implications including reduction of inflammation](https://journals.sagepub.com/doi/abs/10.1177/0963721414547415).
+```
+
+> !# @qna.pair.source = https://lifeapps.io/mindfulness-faq/
+
+<a id = "6"></a>
+
+# ? Who can most benefit from practicing mindfulness meditation?
+
+```markdown
+The word “benefit” can mean several different things depending on the context. However, usually those who report experiencing a “paradigm shift” or transformation in which they relate differently to themselves and others compared to before they started practicing mindfulness meditation have initiated and attempt to maintain a formal meditation practice on a somewhat regular basis. Some people report experiencing a lighter, softer, kinder and less reactive way of being with themselves and others in everyday situations. They are able to flex the muscles of acceptance and letting be more consciously, especially with regards to things that are difficult to accept or let be.
+```
+
+> !# @qna.pair.source = https://lifeapps.io/mindfulness-faq/
+
+<a id = "7"></a>
+
+# ? How many minutes per day should I be practicing mindfulness meditation?
+
+```markdown
+This varies greatly and is really an individual determination. Most guided practice recordings that many people benefit from vary in length from 3 minutes to 30-45 minutes. You should feel free to set your timer for whatever feels right in a particular moment.
+
+I like to think of mindfulness training as gradually adding weights to a bar in a strength-training context. You might start out with a short period of time and progressively work your way up to what feels increasingly doable. In this way you give your mindfulness muscles time to grow and recover and you don’t become overwhelmed with too much too soon. I also think frequency trumps dose; if all you’re able to do is 1 minute, but you can do that 1 minute every day, to me that’s more valuable than binge-meditating and doing a 30-minute practice only every couple of weeks. Most people find that once they begin, they stop concerning themselves with the number of minutes as the practice starts to naturally make itself known in their minds and hearts, almost like your dog standing in front of you with a leash in its mouth.
+```
+
+> !# @qna.pair.source = https://lifeapps.io/mindfulness-faq/
+
+<a id = "8"></a>
+
+# ? How does the amount of time practicing mindfulness change the effects on the body? Is there a minimum or maximum amount of time needed?
+
+```markdown
+This is a very situational, person-to-person experience that depends on a host of other factors. I can only speak to my own experience. I know that when I practice a 1-3 minutes of breath awareness meditation, I can begin to feel physically and emotionally more grounded and calm (usually). This makes me know that even within this short time period, I am probably tapping into my “rest and digest” parasympathetic nervous system relaxation response. When I sit for 10-15 minutes, in addition to the relaxation response usually switching on (note that sometimes I absolutely do not feel relaxed; I can feel just the opposite), I also give myself more time to become aware of my many different thoughts, emotions and physical sensations. I also have adequate time to practice non-reactively noticing my attention wander away (a million times), and bringing it back with qualities of kindness and acceptance.
+
+When I sit for more than 15 minutes (usually 30 to 45 is the longest I sit unless I’m on a retreat), I give myself the time and space for the aforementioned things but I sometimes also notice a subtle shift of embodied presence that I’d call spaciousness, timelessness, oneness and interconnectedness. It’s difficult to find words for these experiences, except to say that it’s a place of being with everything, almost like everything becomes the breath, the walls, floor, sounds, sensations, noises outside of my home, my neighborhood, the trees, etc. It is as if we’re all breathing together. It might sound a little mystical and hokey, but the more time I give myself to sit, the more possible experiences like this are. I never set out to get to a place like this (it would never happen if I did), but it just eventually shows up. It’s kind of like being still and quiet in the forest and eventually a deer walks by. You have to stay put for a long enough period of time for this to be possible.
+```
+
+> !# @qna.pair.source = https://lifeapps.io/mindfulness-faq/
+
+<a id = "9"></a>
+
+# ? What are some signs I can look for that might indicate I am suffering from stress? How can practicing mindfulness help?
+
+```markdown
+We know that stress can be an adaptive, functional and even good thing for us as long as it works as nature intended – to provide us with sufficient energy, motivation even muscular tension to perform various tasks, from maintaining our posture to studying for a test. It’s when we’re unable to take our foot off of the gas pedal after such a task has finished that an unbalance of stress can start to cause some wear and tear on our minds and bodies.
+
+For example, the fight of flight response occurs when we perceive a threat of some kind and our sympathetic nervous system sets in motion an adaptive cascade of regulatory functions to make our senses keener. This response channels energy and resources to different parts of the body so that we can act accordingly in the face of danger. Having a racing heartbeat, feeling a surge of adrenaline, sweating or being overly vigilant to anything out of the ordinary are all things that can help us prepare for an attack from the modern-day grizzly bear – a difficult conversation with our boss. But if the stressful event has passed and yet we’re still experiencing a racing heartbeat, sweaty palms, surges of adrenaline or feeling on the lookout for something bad that might happen, that’s when we know a switch is stuck in the “on” position in our brains.
+
+Mindfulness can help when this is occurring in a couple of different ways. First, it can help us actually know that we’re feeling this way. Second, it can help us approach, respond and even relate to these feelings in a different way than before. Third, with regular practice, we can prevent or lessen the intensity of these moments.
+```
+
+> !# @qna.pair.source = https://lifeapps.io/mindfulness-faq/
+
+<a id = "10"></a>
+
+# ? What’s the best way to start practicing mindfulness?
+
+```markdown
+The best way to start practicing is to start practicing. Reading about traveling is exciting, educational and inspiring, but it’s never a substitute for going on an actual journey. Reading books and trying out apps are usually safe, entry-level activities that can heighten our curiosity, but the best thing in my opinion is to enroll in a class with an instructor and some other students.
+```
+
+> !# @qna.pair.source = https://lifeapps.io/mindfulness-faq/
+
+<a id = "11"></a>
+
+# ? Do I have to be sitting still during a mindfulness practice?
+
+```markdown
+Some people have more of an affinity to connect with movement and the sensation of movement during a practice, as with mindful yoga or walking for example, than with sitting. But to me, a walking meditation is very difficult, because there is so much going on. Sitting is probably the easiest way to start practicing mindfulness. When you add movement, you not only have the sensations that are happening as a part of that movement, but you have space and balance and other visual distractions. It’s equally valid but can be difficult.
+```
+
+> !# @qna.pair.source = https://lifeapps.io/mindfulness-faq/
+
+<a id = "12"></a>
+
+# ? My thoughts often wander, even when I try to be mindful. Am I bad at this? Are there things I can do to get better?
+
+```markdown
+The mere fact that you are aware that your thoughts are wandering despite your attempts to be mindful means that you were actually *being mindful*. Yes, there are things one can do to get better at this. Maybe one of the most important is to try to let go of the desire to get “better”, or get anywhere for that matter. This is hard to do, but lessening this self-expectation is actually a form of self-compassion, and the higher that gets, the “better” one is getting at this practice.
+```
+
+> !# @qna.pair.source = https://lifeapps.io/mindfulness-faq/
+
+<a id = "13"></a>
+
+# ? I feel awkward trying to practice meditation. What can I do?
+
+```markdown
+I warn people who are practicing meditation for the first time that for the next 10 minutes or so you are going to be spending your time very differently than normal. It might seem weird, but let’s just try an experiment. You might start by focusing on something with a regular rhythm, like your breath. Now, every time you catch yourself somewhere else other than your breath, with a sense of ease and kindness, gently bring yourself back. This is really important, not to berate yourself when you aren’t with your breath during this practice. This is a common thing that happens, because people want to do mindfulness the “right” way. Instead of being hard on yourself for straying from your breath, gently escort yourself back like you might do with a wandering puppy. This might happen a thousand times, and this is mindfulness training. The more we bring ourselves back in a gentle and kind way, the more we are carving new neural pathways in our brain to become less reactive.
+
+I call this the puppy mind, because you wouldn’t get mad at a puppy for wandering away, you would just gently coax it back, maybe with your baby voice in action. I’ll sometimes do this with myself when I’m practicing mindfulness. It reminds me not to be hard on myself, but to be kind.
+```
+
+> !# @qna.pair.source = https://lifeapps.io/mindfulness-faq/
+
+<a id = "14"></a>
+
+# ? When I try to practice mindfulness, I feel like my mind races too much. Am I doing something wrong?
+
+```markdown
+Everyone’s minds race too much. It’s what our brains do on stillness. You are doing nothing wrong. See if you can just be a spectator and watch the racing at the Indy 500 of your experience.
+
+For some people, and even on some days, you might try to sit still and feel fidgety and anxious trying to sit with your thoughts. It’s important to realize that awareness of a racing mind *is* mindfulness. If you are thinking, “oh my, I’m so bad at this, my thoughts were all over the place,” I could say that actually, if you noticed that your thoughts were all over the place, you were being mindful. You weren’t just your thoughts, you were aware of your thoughts, and that is being mindful.
+```
+
+> !# @qna.pair.source = https://lifeapps.io/mindfulness-faq/
+
+<a id = "15"></a>
+
+# ? How or what should I feel while practicing mindfulness?
+
+```markdown
+You should experience moments of attunement and connection to what you’re being mindful with, followed by periods of unconscious disconnection until you have realized that your attention has wandered elsewhere. This should be followed by a kind understanding that this is just what happens during this practice and that there’s no good or bad, followed by a gentle returning of the attention to what was originally being observed. Rinse. Repeat.
+```
+
+> !# @qna.pair.source = https://lifeapps.io/mindfulness-faq/
+
+<a id = "16"></a>
+
+# ? Can practicing mindfulness affect other areas of my life?
+
+```markdown
+Absolutely. In fact, I think this is what it’s all about. At some point, our lives become the meditation and everything we do, everything we are, becomes what we watch, notice, observe and savor.
+```
+
+> !# @qna.pair.source = https://lifeapps.io/mindfulness-faq/
+
+<a id = "17"></a>
+
+# ? I don’t feel like I have time to practice mindfulness… What should I do?
+
+```markdown
+No one has time, so you can make a choice not to practice because of that, or you can try to find one available minute per day and start there. In fact, if this applies to you, you should stop reading these FAQs right now and use the rest of the time to close your eyes and bring your awareness to a couple breaths, asking yourself, “what am I noticing now?”
+```
+
+> !# @qna.pair.source = https://lifeapps.io/mindfulness-faq/
+
+<a id = "18"></a>
+
+# ? If I pray, am I practicing mindfulness?
+
+```markdown
+Maybe, maybe not. There are some pretty specific things to do, so if you’re not doing those during your prayer, then probably not.
+```
+
+> !# @qna.pair.source = https://lifeapps.io/mindfulness-faq/
+
+<a id = "19"></a>
+
+# ? How do I know it’s working?
+
+```markdown
+The answer to this question is a bit of an oxymoron, but you know it’s working when you stop wondering if it’s working. Really. The challenge with mindfulness is that you don’t want to set up too many expectations, because mindfulness works a bit differently for everyone. Benefits of mindfulness practice can vary depending on many different factors.
+
+However, many people who begin a meditation practice report feeling a greater sense of sense of calm and attunement or awareness to their body, thoughts and feelings. Sometimes people don’t realize all that is going on within their minds and their bodies at a given point in time. Mindfulness can in fact at times bring up difficult or even painful realizations, thoughts and feelings. But through continued practice, one of the benefits is learning to watch, observe and sit with some of these with less reactivity. In this way we are able to let these thoughts and feelings into our lives in not quite so disruptive a way.
+```
+
+> !# @qna.pair.source = https://lifeapps.io/mindfulness-faq/
+
+<a id = "20"></a>
+
+# ? Do I have to meditate to practice mindfulness?
+
+```markdown
+You can apply mindful awareness to everything you do. You could even try to watch a movie mindfully, using the movie as your object of focus and attention. Every time you might be urged to pull your phone up to look at an e-mail message, you might notice that you aren’t watching the movie carefully. Anything we do can be within the frame of mindfulness. But I wouldn’t say that activities such as watching a movie or reading a book *are* mindfulness.
+
+Mindfulness is a different frame of mind or state of awareness that can bring about a physiologic relaxed feeling. When you slow down like you do during a formal mindfulness practice or other relaxation activities, you activate your parasympathetic nervous system, which sets in motion a whole cascade of functions and regulatory mechanisms in the body and brain that help us rest and digest. This typically feels good for most people*, especially people who are often fast-paced and stressed. But this is a short-term effect. It’s what can help you calm down after you’ve experience road rage or another stressful outburst, for example. But formally practicing mindfulness and making it a part of your daily life *will *change reactivity patterns in your brain and change your emotional responses to things. Similarly, eating one salad isn’t going to change your health, but eating more vegetables your whole life *will*. With a consistent mindfulness practice, **you will likely have a shorter reaction period to stressful events**. This means that you are better able to regain composure, in a way, following an assault. If you weren’t rewiring your brain in this way, on the other hand, you’d stay more highly activated for a longer period of time after a stressful event. With mindfulness practice you are helping your body not be on high alert for as long; you are helping your body to more quickly turn off the cortisol secretion that happens when we are in a fight or flight state; you are even helping to decrease inflammation in your body. Being able to regulate our emotions and our thoughts in this way has long-term physiological benefits.
+```
+
+> !# @qna.pair.source = https://lifeapps.io/mindfulness-faq/
+
+<a id = "21"></a>
+
+# ? How is a still meditation different for my brain than just resting or sleeping?
+
+```markdown
+Mindfulness to me is “falling awake”. If you are truly practicing mindfulness, you will have very active brain wave states as opposed to the slow brain wave states that occur when you are about to fall asleep, for example.
+```
+
+> !# @qna.pair.source = https://lifeapps.io/mindfulness-faq/
+
+<a id = "22"></a>
+
+# ? What are the common mindfulness practice techniques?
+
+```markdown
+While you can apply mindfulness to any activity, tried and true techniques for mindfulness practice include:
+
+*   **Sitting, breath-awareness meditation**. This form of practice typically involves noticing where your breath is, noticing what the experience is like, noticing when you aren’t with your breath and gently bringing yourself back again and again. Sitting upright in a comfortable position is conducive to this type of pratice.
+
+*   **Body scan**. This involves taking your full attention from your toes to your head and through everybody part in between with a mindful lens. When your full attention isn’t with that body part, you bring it back again and again. While it isn’t typically used in mindfulness practice, some people who don’t know what relaxed feels like in their body can also benefit from **progressive muscle relaxation**, which involves tuning in to what tension feels like by progressively tensing up a muscle in the body and then letting it go to notice what the difference feels like.
+
+*   **Mindful movement**. This can be practiced as mindful yoga or walking. It often involves tuning in fully to the breath as well as the sensation of movement and letting breathe guide and time your movement.
+
+*   **Mindful eating**. Eating mindfully, being aware of the sensations, sights and sounds of one’s food and the experience of eating.
+
+*   **Open monitoring or choiceless awareness**. This involves, instead of actively choosing something to focus on like the breath, letting whatever is happening around your or in your mind pick you. You sit and let whatever shows up, whether a sound in a room or a feeling in the body, become the focus of your full attention until something else takes over, and then you fully notice that.
+
+As you advance in your mindfulness practice, you might move from focusing on external or physical things – the sound in a room, the feel of a cushion, the sensation of breath – to focusing on a thought or a feeling. You might even choose as a topic of meditation something that is difficult or something that makes you sad. In the end, it doesn’t matter if your focus is external or internal – your goal is to focus on what is happening. But for anyone who is just starting a mindfulness practice, you don’t typically want to start with your thoughts. You’ll become completely overwhelmed. You typically want to start with something that isn’t so heavy, and then evolve to that place.
+```
+
+> !# @qna.pair.source = https://lifeapps.io/mindfulness-faq/
+
+<a id = "23"></a>
+
+# ? Where can I find more information about mindfulness?
+
+```markdown
+Follow the work of mindfulness researchers including:
+
+*   [Sara Lazar](https://scholar.harvard.edu/sara_lazar/home)
+
+*   [Richard Davidson and the Center for Healthy Minds](https://centerhealthyminds.org/)
+
+*   [David Creswell](https://www.cmu.edu/dietrich/psychology/people/core-training-faculty/creswell-david.html)
+
+*   [Zindel Segal](https://www.utsc.utoronto.ca/labs/mindful-awareness/) of The Mindful Awareness Lab
+```
+
+> !# @qna.pair.source = Editorial
+
+<a id = "30"></a>
+
+# ? What is financial well-being?
+
+```markdown
+_A state of being reflecting a person’s ability to meet current and ongoing financial obligations, feel secure in their financial future, and make choices that allow enjoyment of life. _
+```
+
+> !# @qna.pair.source = Editorial
+
+<a id = "31"></a>
+
+# ? What influences financial wellbeing 
+
+```markdown
+*   **Knowledge**
+    **and skills**
+    *   _What you know, and what you know how to do._
+*   **Personality**
+    **and attitudes**
+    *   _How you tend to think, feel, and act._
+*   **Behavior**
+    *   What you actually do.
+*   **Social and economic environment**
+    *   _What surrounds you in your family and community._
+*   **Decision context**
+    *   _How a particular decision is presented._
+*   **Available opportunities**
+    *   _What options are open to you._
+*   **Personal financial well-being**
+    *   _How satisfied you are with your financial situation._
+```
+
+> !# @qna.pair.source = Editorial
+
+<a id = "32"></a>
+
+# ? Where can I find therapy?
+
+```markdown
+You can find a local therapist in your area using Psychology Today's Therapy Directory. You can search by zip code, city, last name, etc. Each provider will also have specialities and background listed to ensure you find the best match!
+
+[https://www.psychologytoday.com/us/therapists](https://www.psychologytoday.com/us/therapists)
+```
+
+> !# @qna.pair.source = Editorial
+
+<a id = "33"></a>
+
+# ? Is therapy covered in my insurance?
+
+```markdown
+Under your health benefits, therapy is covered! Reach out to your HR professional to discuss the details of your health plan.
+```
+
+> !# @qna.pair.source = Editorial
+
+<a id = "34"></a>
+
+# ? Are there support groups for depression/anxiety/burnout?
+
+```markdown
+Under our collaboration with LiveWell Foundation, we have a variety of support groups to connect you with individuals in recovery. The LiveWell Foundation offers free peer support groups, affordable workshops, and sliding-scale therapy for depression, recovery, and mental health topics.
+
+For more questions, reach out to your HR professional!
+```
+
+> !# @qna.pair.source = Editorial
+
+<a id = "35"></a>
+
+# ? What are corporate resources for physical health?
+
+```markdown
+Under your health plan, you could be eligible for discounts on gym memberships, meal plans, and more. For more resources for physical health, reach out to your HR professional.
+```
+
+> !# @qna.pair.source = Editorial
+
+<a id = "36"></a>
+
+# ? What are some signs of burnout?
+
+```markdown
+HelpGuide.org finds that some signs of burnout can include:
+
+*   Feelings of self-doubt or failure
+*   Senses of being helpless, defeated, or trapped
+*   Feelings of being alone
+*   A cynical or negative outlook on life
+*   Loss of motivation
+```
+
+> !# @qna.pair.source = Editorial
+
+<a id = "37"></a>
+
+# ? What are some signs of anxiety?
+
+```markdown
+According to Mayo Clinic, signs of anxiety can include:
+
+*   Feeling nervous, restless or tense
+*   Having a sense of impending danger, panic or doom
+*   Having an increased heart rate
+*   Breathing rapidly (hyperventilation)
+*   Sweating
+*   Trembling
+*   Feeling weak or tired
+*   Trouble concentrating or thinking about anything other than the present worry
+*   Having trouble sleeping
+*   Experiencing gastrointestinal (GI) problems
+*   Having difficulty controlling worry
+*   Having the urge to avoid things that trigger anxiety
+```
+
+> !# @qna.pair.source = Editorial
+
+<a id = "38"></a>
+
+# ? What should I do when I feel depressed/anxious/burnt out?
+
+```markdown
+*   Take a break - Meditate, practice breathing techniques, or perform a yoga sequence.
+*   Eat - Ensure that you’re eating enough food
+*   Take a nap or get some sleep - Your body needs more sleep and rest when you are stressed.
+*   Exercise - By working out, you can both stay in healthy shape and produce endorphins.
+*   Slowly count to 10 - Sometimes you just need 10 seconds to breathe.
+*   Talk to someone - Reach out to your coworkers, friends, and family when you are feeling extremely anxious.
+```
+
+

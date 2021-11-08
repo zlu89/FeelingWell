@@ -1,0 +1,9 @@
+[import](common.lg)
+
+# SendActivity_7Eo7Dv_text()
+- hi
+# SendActivity_7Eo7Dv()
+[Activity
+    Text = ${SendActivity_7Eo7Dv_text()}
+]
+
